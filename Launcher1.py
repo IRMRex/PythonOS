@@ -1,3 +1,4 @@
+from os import close
 import os
 def Main():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -14,5 +15,5 @@ def Main():
     elif TODO == "2":
         import set
         print("Entering settings")
-        set
+        set.Main()
 Main()
